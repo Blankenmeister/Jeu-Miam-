@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.fondJeu {
+    width: 700px;
+    height: 499px; 
+    background-image: url("./img/fond700.png");
+    background-repeat: no-repeat;
+}
