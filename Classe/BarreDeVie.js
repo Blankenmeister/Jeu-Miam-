@@ -68,7 +68,7 @@ export default class BarreDeVie {
     return bouton;
   }
 
-  // Méthode qui permet d'augmenter la vie.
+  // Méthode qui permet d'augmenter les points de vie.
 
   augmenterVie(vie) {
     if (this.vie + vie <= 100) {

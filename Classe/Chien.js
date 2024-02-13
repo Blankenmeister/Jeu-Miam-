@@ -1,4 +1,7 @@
+// Création d'une classe chien mais qui ne fonctione pas encore correctement 
+
 export default class Chien {
+
   
   #vie;
 

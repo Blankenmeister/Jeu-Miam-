@@ -1,7 +1,18 @@
 import BarreDeVie from "./Classe/BarreDeVie.js";
 
-import Chien from "./Classe/Chien.js";
+// import Chien from "./Classe/Chien.js";
 
+// affichage de la pop-up des règles du jeu:
+const modal = document.getElementById('modal');
+modal.style.display = 'block';
+
+
+// fermeture de la pop-up:
+const modalClose = document.getElementById('modal-close');
+
+modalClose.addEventListener('click', function(e) {
+  modal.style.display = 'none';
+})
 
 // instanciation de la classe BarreDeVie
 let barre = new BarreDeVie;
@@ -19,10 +30,10 @@ let barre = new BarreDeVie;
     barre.augmenterVie(30);
   })
 
-  let GrosChien = new Chien(60);
-  GrosChien.grossirChien();
+  // let GrosChien = new Chien(60);
+  // GrosChien.grossirChien();
 
 
-
+  
 
 
