@@ -1,4 +1,6 @@
 # Jeu-Miam-
+![image de jeu](jeu-miam-/img/200_Sonia.png)
+
 
 Lien du jeu :
 https://blankenmeister.github.io/Jeu-Miam-/
